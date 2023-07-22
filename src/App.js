@@ -26,6 +26,7 @@ const Body = () => {
 }
 
 
+
 const App = () => {
   const data = 'Hello from parent!';
 
