@@ -2,6 +2,7 @@
 import './App.css';
 
 import React from 'react'
+import ChildComponent from './PropsExample';
 // import MyButton from './MyButton';
 import Emoji from './Emoji';
 import ListRender from './ListRender';
@@ -26,6 +27,7 @@ const Body = () => {
 
 
 const App = () => {
+  const data = 'Hello from parent!';
 
   const myheading =<h1>Hello Niranjan </h1>;
   return (
@@ -36,6 +38,7 @@ const App = () => {
 {/* <MyButton/> */}
 <ListRender/>
 <Emoji />
+<ChildComponent message={data} />
     </div>
   )
 }
