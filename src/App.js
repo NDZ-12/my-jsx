@@ -3,7 +3,7 @@ import './App.css';
 
 import React from 'react'
 import ChildComponent from './PropsExample';
-// import MyButton from './MyButton';
+
 import Emoji from './Emoji';
 import ListRender from './ListRender';
 
